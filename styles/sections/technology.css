@@ -63,6 +63,12 @@
 
 .tech-card-image {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: var(--radius-md);
   margin-top: var(--space-4);
+}
+
+.newton-image{
+  object-fit: contain;
 }
