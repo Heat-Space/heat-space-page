@@ -29,8 +29,8 @@
 }
 
 .tech-card-icon {
-  width: 3.25rem;
-  height: 3.25rem;
+  width: fit-content;
+ padding: var(--space-3);
   border-radius: var(--radius-full);
   display: flex;
   align-items: center;
