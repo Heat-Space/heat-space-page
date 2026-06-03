@@ -1,0 +1,65 @@
+/* Section 1 - Problema */
+.hero {
+  position: relative;
+  height: 90vh;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+  border-radius: var(--radius-md);
+  background: url("../../assets/images/hero-background.png") no-repeat center center / cover;
+}
+
+.hero::after{
+content: "";
+position: absolute;
+inset: 0;
+background: rgba(0, 0, 0, 0.726);
+  border-radius: var(--radius-md);
+}
+
+.hero-label{
+  z-index: 1;
+}
+
+.hero-title {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-6xl);
+  font-weight: var(--weight-extrabold);
+  letter-spacing: var(--tracking-tighter);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.hero-title-line {
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  gap: var(--space-4);
+}
+
+.hero-title-highlight {
+  color: var(--color-primary);
+}
+
+.hero-description {
+  z-index: 1;
+  max-width: 70rem;
+  font-size: var(--text-xl);
+  line-height: var(--leading-normal);
+  text-align: center;
+  color: var(--color-gray-200);
+}
+
+.hero-actions {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
