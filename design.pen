@@ -1,0 +1,2135 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "dd9LA",
+      "x": 0,
+      "y": 0,
+      "name": "Landing Page",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "H4gSj",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MFTB7",
+              "name": "NavContent",
+              "width": 1100,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jBaGF",
+                  "name": "Logo",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j6qlMa",
+                      "name": "logoIcon",
+                      "fill": "#FB8500",
+                      "content": "◆",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hUrnS",
+                      "name": "logoText",
+                      "fill": "#023047",
+                      "content": "Heat Space",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ltCdE",
+                  "name": "NavLinks",
+                  "gap": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PcH3E",
+                      "name": "link1",
+                      "fill": "#023047",
+                      "content": "Problema",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DCEsP",
+                      "name": "link2",
+                      "fill": "#6B7280",
+                      "content": "Tecnologia",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mA2AB",
+                      "name": "link3",
+                      "fill": "#6B7280",
+                      "content": "Objetivos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PXbuE",
+                      "name": "link4",
+                      "fill": "#6B7280",
+                      "content": "Público",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "osvmi",
+                      "name": "link5",
+                      "fill": "#6B7280",
+                      "content": "Benefícios",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BtOAC",
+                  "name": "NavCTA",
+                  "width": 140,
+                  "height": 40,
+                  "fill": "#FB8500",
+                  "cornerRadius": 9999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W7rktP",
+                      "name": "navCtaText",
+                      "fill": "#FFFFFF",
+                      "content": "Saiba Mais",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dFov7",
+          "name": "Section 1 - Problema",
+          "width": "fill_container",
+          "height": 720,
+          "fill": "#023047",
+          "layout": "vertical",
+          "gap": 48,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "rmZWS",
+              "name": "Sec1Content",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SYrkZ",
+                  "name": "sec1Label",
+                  "fill": "#FB8500",
+                  "content": "CRISE CLIMÁTICA · PROBLEMA",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "frame",
+                  "id": "Hq0AV",
+                  "name": "sec1Title",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YpTf5",
+                      "name": "sec1TitleLine1",
+                      "fill": "#FFFFFF",
+                      "content": "Vacinas destruídas",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 80,
+                      "fontWeight": "800",
+                      "letterSpacing": -2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UAfmd",
+                      "name": "sec1TitleLine2",
+                      "gap": 20,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cOJLC",
+                          "name": "sec1TitleWord1",
+                          "fill": "#FFFFFF",
+                          "content": "pelo calor que",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 80,
+                          "fontWeight": "800",
+                          "letterSpacing": -2
+                        },
+                        {
+                          "type": "text",
+                          "id": "fGBlI",
+                          "name": "sec1TitleWord2",
+                          "fill": "#FB8500",
+                          "content": "ninguém previu",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 80,
+                          "fontWeight": "800",
+                          "letterSpacing": -2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "f73R4V",
+                  "name": "sec1Sub",
+                  "fill": "#A8C8D8",
+                  "textGrowth": "fixed-width",
+                  "width": 780,
+                  "content": "Até 50% das vacinas são desperdiçadas todo ano, em grande parte por falhas na cadeia de frio. Em regiões remotas da África, onde 58% das unidades de saúde não têm eletricidade confiável e ondas de calor acima de 46°C já matam centenas de pessoas, um termômetro comum só avisa quando o estrago já aconteceu.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "w6gWp",
+                  "name": "sec1Btns",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gzm8r",
+                      "name": "sec1BtnPrimary",
+                      "width": 200,
+                      "height": 56,
+                      "fill": "#FB8500",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "v17N0",
+                          "name": "sec1BtnPrimaryText",
+                          "fill": "#FFFFFF",
+                          "content": "Conheça a Solução",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RUL7w",
+                      "name": "sec1BtnSecondary",
+                      "width": 180,
+                      "height": 56,
+                      "fill": "#00000000",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B4C9di",
+                          "name": "sec1BtnSecondaryText",
+                          "fill": "#FFFFFF",
+                          "content": "Ver Dados",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JfYCf",
+          "name": "Section 2 - Tecnologia",
+          "width": "fill_container",
+          "fill": "#F8FAFC",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "EaG25",
+              "name": "Sec2Header",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yR7ZP",
+                  "name": "sec2Label",
+                  "fill": "#FB8500",
+                  "content": "STACK TECNOLÓGICO · PLATAFORMA",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "my75y",
+                  "name": "sec2Title",
+                  "fill": "#023047",
+                  "textGrowth": "fixed-width",
+                  "width": 1100,
+                  "content": "As tecnologias por trás do Heat Space",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "BjIGw",
+                  "name": "sec2Sub",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Satélite, IoT, cálculo preditivo e visualização em tempo real integrados em uma solução de ponta a ponta para proteger vacinas antes que o calor chegue.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wu3uV",
+              "name": "TechGrid",
+              "width": 1100,
+              "gap": 24,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ASYSz",
+                  "name": "TechCard1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FIkCv",
+                      "name": "card1Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#02304714",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h0uodg",
+                          "name": "card1IconText",
+                          "fill": "#023047",
+                          "content": "📡",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "aUm0s",
+                      "name": "card1Title",
+                      "fill": "#023047",
+                      "content": "Satélite LEO",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TT0k1",
+                      "name": "card1Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sensoriamento térmico orbital em órbita baixa mede a Temperatura de Superfície Continental (LST) e detecta ondas de calor horas antes de elas atingirem os postos médicos.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m1oE9I",
+                  "name": "TechCard2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SiQV1",
+                      "name": "card2Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#fb85001a",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "A1Iuv",
+                          "name": "card2IconText",
+                          "fill": "#FB8500",
+                          "content": "🤖",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dNLCX",
+                      "name": "card2Title",
+                      "fill": "#023047",
+                      "content": "Sistema de Missão em Python",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yLePx",
+                      "name": "card2Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Software que simula o controle orbital, cruza coordenadas GPS dos postos médicos com os dados do satélite e gera o comando de alerta criptografado enviado à geladeira.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "r8x914",
+                  "name": "TechCard3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U2wO8",
+                      "name": "card3Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#02304714",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fewWP",
+                          "name": "card3IconText",
+                          "fill": "#023047",
+                          "content": "🗺️",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "laOVG",
+                      "name": "card3Title",
+                      "fill": "#023047",
+                      "content": "Cálculo Preditivo de Newton",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "t4xesO",
+                      "name": "card3Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A Lei do Resfriamento de Newton calcula em quantas horas a geladeira atingiria os 8°C críticos, gerando um prazo logístico preciso para a equipe de saúde agir.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Twj0y",
+                  "name": "TechCard4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "esgKq",
+                      "name": "card4Icon",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#fb85001a",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vjElP",
+                          "name": "card4IconText",
+                          "fill": "#FB8500",
+                          "content": "☁️",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 22,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "f368f",
+                      "name": "card4Title",
+                      "fill": "#023047",
+                      "content": "Edge Computing Arduino",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E0Lv16",
+                      "name": "card4Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Arduino com sensor DHT22, servo motor e controle PID atua localmente na geladeira: reforça o resfriamento, trava a porta e dispara o alarme antes do calor chegar, sem depender de rede elétrica contínua.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C9JPv",
+          "name": "Section 3 - Objetivos",
+          "width": "fill_container",
+          "fill": "#023047",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z1IheP",
+              "name": "sec3Header",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hhMNd",
+                  "name": "sec3Label",
+                  "fill": "#FB8500",
+                  "content": "METAS · OBJETIVOS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "nkXqJ",
+                  "name": "sec3Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 1100,
+                  "content": "O que o Heat Space quer alcançar",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "rbHWL",
+                  "name": "sec3Sub",
+                  "fill": "#ffffffa6",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Transformar a gestão da cadeia de frio de vacinas de reativa para preditiva, usando o calor que ainda se desloca como sinal de alarme antecipado.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U0Pn6s",
+              "name": "ObjGrid",
+              "width": 1100,
+              "cornerRadius": 16,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Dn7lz",
+                  "name": "obj1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gkTQr",
+                      "name": "obj1Num",
+                      "fill": "#FB8500",
+                      "content": "01",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "en3tk",
+                      "name": "obj1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Detecção Orbital de Ondas de Calor",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G5QfCJ",
+                      "name": "obj1Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Identificar por satélite a aproximação de temperaturas extremas sobre coordenadas de postos médicos isolados, com horas de antecedência.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d0uAy",
+                  "name": "obj2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ud159",
+                      "name": "obj2Num",
+                      "fill": "#FB8500",
+                      "content": "02",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TQCNF",
+                      "name": "obj2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Previsão do Tempo de Sobrevivência",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F9Mqd",
+                      "name": "obj2Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Calcular em quantas horas cada lote de vacina chegaria ao limite crítico de 8°C, cruzando esse prazo com a velocidade de resgate em campo.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C1Yphp",
+                  "name": "obj3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Rx3NW",
+                      "name": "obj3Num",
+                      "fill": "#FB8500",
+                      "content": "03",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lWWiM",
+                      "name": "obj3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Resposta Autônoma na Borda",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zWtZq",
+                      "name": "obj3Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Automatizar a ação da geladeira via Arduino antes do calor chegar, sem necessidade de presença humana constante ou conexão com a rede.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ue2Uy",
+                  "name": "obj4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 40,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Zkup9",
+                      "name": "obj4Num",
+                      "fill": "#FB8500",
+                      "content": "04",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 40,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OBmtQ",
+                      "name": "obj4Title",
+                      "fill": "#FFFFFF",
+                      "content": "Visibilidade para Equipes de Saúde",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aAP9b",
+                      "name": "obj4Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Traduzir dados orbitais e térmicos em alertas acionáveis no painel web para que equipes decidam quando e onde enviar jipes ou drones de resgate.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c8kry",
+          "name": "Section 4 - Publico Alvo",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wjAiE",
+              "name": "sec4Header",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u5Ksu",
+                  "name": "sec4Label",
+                  "fill": "#FB8500",
+                  "content": "IMPACTO SOCIAL · PÚBLICO-ALVO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "vWbGT",
+                  "name": "sec4Title",
+                  "fill": "#023047",
+                  "textGrowth": "fixed-width",
+                  "width": 1100,
+                  "content": "Quem o Heat Space protege",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "XvlSN",
+                  "name": "sec4Sub",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Do beneficiário final ao operador do sistema, a solução foi desenhada em camadas para atender quem sofre e quem gerencia os efeitos do calor extremo.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K5GmSc",
+              "name": "PubGrid",
+              "width": 1100,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YqaT0",
+                  "name": "pub1",
+                  "width": "fill_container",
+                  "fill": "#F8FAFC",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "z2ItN",
+                      "name": "pub1Badge",
+                      "height": 28,
+                      "fill": "#02304714",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wrglW",
+                          "name": "pub1BadgeText",
+                          "fill": "#023047",
+                          "content": "POPULAÇÃO",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ySDD8",
+                      "name": "pub1Icon",
+                      "fill": "#023047",
+                      "content": "👥",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "msBpR",
+                      "name": "pub1Title",
+                      "fill": "#023047",
+                      "content": "Comunidades Remotas",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r3nLLL",
+                      "name": "pub1Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Populações de regiões isoladas da África Subsaariana, especialmente crianças: 1 em cada 5 ainda não tem acesso a vacinas que salvam vidas.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WIUKg",
+                  "name": "pub2",
+                  "width": "fill_container",
+                  "fill": "#FFF8F0",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "VCuJe",
+                      "name": "pub2Badge",
+                      "height": 28,
+                      "fill": "#fb85001f",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u2Lh8",
+                          "name": "pub2BadgeText",
+                          "fill": "#FB8500",
+                          "content": "GESTÃO HUMANITÁRIA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "G6vedq",
+                      "name": "pub2Icon",
+                      "fill": "#FB8500",
+                      "content": "🏛️",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X1ecPl",
+                      "name": "pub2Title",
+                      "fill": "#023047",
+                      "content": "Equipes de Saúde e Agências",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ndno6",
+                      "name": "pub2Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Profissionais de saúde, agências humanitárias e organizações de imunização que gerenciam postos médicos e logística de resgate em campo.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ld95Z",
+                  "name": "pub3",
+                  "width": "fill_container",
+                  "fill": "#F8FAFC",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z4K7s8",
+                      "name": "pub3Badge",
+                      "height": 28,
+                      "fill": "#02304714",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uaDcY",
+                          "name": "pub3BadgeText",
+                          "fill": "#023047",
+                          "content": "INSTITUCIONAL",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LRw0h",
+                      "name": "pub3Icon",
+                      "fill": "#023047",
+                      "content": "🔬",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 36,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vHIRx",
+                      "name": "pub3Title",
+                      "fill": "#023047",
+                      "content": "OMS, UNICEF e Parceiros",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 22,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cO4jA",
+                      "name": "pub3Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Organizações que já operam cadeia de frio em larga escala e que sustentariam a iniciativa, como a Gavi e o Centro Africano de Excelência em Refrigeração Sustentável.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DPYs1",
+          "name": "Section 5 - Beneficios",
+          "width": "fill_container",
+          "fill": "#F8FAFC",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FmHfJ",
+              "name": "sec5Header",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jt228",
+                  "name": "sec5Label",
+                  "fill": "#FB8500",
+                  "content": "PROPOSTA DE VALOR · BENEFÍCIOS",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "CJX3R",
+                  "name": "sec5Title",
+                  "fill": "#023047",
+                  "textGrowth": "fixed-width",
+                  "width": 1100,
+                  "content": "Por que escolher o Heat Space",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IdF0L",
+              "name": "StatsRow",
+              "width": 1100,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I0JfX",
+                  "name": "stat1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kwq3o",
+                      "name": "stat1Num",
+                      "fill": "#FB8500",
+                      "content": "50%",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zRFj1",
+                      "name": "stat1Label",
+                      "fill": "#6B7280",
+                      "content": "DESPERDÍCIO",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rnpvb",
+                      "name": "stat1Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "das vacinas perdidas todo ano por falha de temperatura",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "POXI8",
+                  "name": "stat2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lUY0H",
+                      "name": "stat2Num",
+                      "fill": "#023047",
+                      "content": "8°C",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TnEqU",
+                      "name": "stat2Label",
+                      "fill": "#6B7280",
+                      "content": "LIMITE CRÍTICO",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZOYMf",
+                      "name": "stat2Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "temperatura máxima segura para armazenamento",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OzaVZ",
+                  "name": "stat3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UVgQY",
+                      "name": "stat3Num",
+                      "fill": "#FB8500",
+                      "content": "90%",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b9JpM",
+                      "name": "stat3Label",
+                      "fill": "#6B7280",
+                      "content": "ERRO HUMANO",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "H9TgTl",
+                      "name": "stat3Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "das falhas na cadeia de frio têm origem humana",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cr4lE",
+                  "name": "stat4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 40,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ygZ4J",
+                      "name": "stat4Num",
+                      "fill": "#023047",
+                      "content": "4,2M",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qOLru",
+                      "name": "stat4Label",
+                      "fill": "#6B7280",
+                      "content": "VIDAS",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "aVw5a",
+                      "name": "stat4Desc",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "salvas por vacinas por ano, metade na África",
+                      "textAlign": "center",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kn9Mm",
+              "name": "BenRow",
+              "width": 1100,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EIhN7",
+                  "name": "ben1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AXAOJ",
+                      "name": "ben1Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#fb85001a",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LYtlB",
+                          "name": "ben1IconText",
+                          "fill": "#FB8500",
+                          "content": "🌿",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "JPDHd",
+                      "name": "ben1Title",
+                      "fill": "#023047",
+                      "content": "Vacinas Preservadas",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WHVhv",
+                      "name": "ben1Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Antecipação de excursões de temperatura antes que aconteçam, atacando diretamente a maior causa de desperdício de imunizantes.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DaBrP",
+                  "name": "ben2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kJVYg",
+                      "name": "ben2Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#02304714",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lIM3h",
+                          "name": "ben2IconText",
+                          "fill": "#023047",
+                          "content": "❤️",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VQLB6",
+                      "name": "ben2Title",
+                      "fill": "#023047",
+                      "content": "Janela de Resposta Logística",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zXvqx",
+                      "name": "ben2Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Prazo calculado em horas para a equipe de saúde decidir se jipes ou drones chegam a tempo de salvar o lote, priorizando recursos escassos com precisão.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "av0Gy",
+                  "name": "ben3",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    28,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wsdqT",
+                      "name": "ben3Icon",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#fb85001a",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tKRrN",
+                          "name": "ben3IconText",
+                          "fill": "#FB8500",
+                          "content": "⚡",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yEe3b",
+                      "name": "ben3Title",
+                      "fill": "#023047",
+                      "content": "Resiliência sem Rede Elétrica",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xEeig",
+                      "name": "ben3Body",
+                      "fill": "#6B7280",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Inteligência local no Arduino e refrigeração a CO₂ reduzem a dependência da rede instável e eliminam a principal causa de falha: o erro humano.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D87mqY",
+          "name": "Section 6 - Aplicacao",
+          "width": "fill_container",
+          "fill": "#023047",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "wfPI8",
+              "name": "sec6Header",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NkkgK",
+                  "name": "sec6Label",
+                  "fill": "#FB8500",
+                  "content": "USO PRÁTICO · FLUXO DA MISSÃO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "cqVeZ",
+                  "name": "sec6Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 1100,
+                  "content": "Como o Heat Space protege em campo",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "xIFKt",
+                  "name": "sec6Sub",
+                  "fill": "#ffffffa6",
+                  "textGrowth": "fixed-width",
+                  "width": 700,
+                  "content": "Do espaço até a porta da geladeira: um fluxo contínuo que transforma dados orbitais em ação local antes que o calor destrua qualquer vacina.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "J5Et3x",
+              "name": "UseCaseGrid",
+              "width": 1100,
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "W8WHS",
+                  "name": "uc1",
+                  "width": "fill_container",
+                  "fill": "#ffffff0f",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bDHKX",
+                      "name": "uc1Step",
+                      "height": 28,
+                      "fill": "#FB8500",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y32VZN",
+                          "name": "uc1StepText",
+                          "fill": "#FFFFFF",
+                          "content": "ÓRBITA",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "f1fsp",
+                      "name": "uc1Icon",
+                      "fill": "#FFFFFF",
+                      "content": "☀️",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 40,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l75v8A",
+                      "name": "uc1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Satélite detecta a onda de calor",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lP8lr",
+                      "name": "uc1Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "O satélite LEO mede a temperatura de superfície (LST) e identifica que uma massa de ar de 45°C se dirige a uma vila com posto médico. O sistema de missão em Python calcula coordenadas e prazo de chegada.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T9z4g",
+                  "name": "uc2",
+                  "width": "fill_container",
+                  "fill": "#ffffff0f",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DHKHW",
+                      "name": "uc2Step",
+                      "height": 28,
+                      "fill": "#fb85004d",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x9T3g",
+                          "name": "uc2StepText",
+                          "fill": "#FB8500",
+                          "content": "CÁLCULO",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LZ32p",
+                      "name": "uc2Icon",
+                      "fill": "#FFFFFF",
+                      "content": "🔔",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 40,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fHoNj",
+                      "name": "uc2Title",
+                      "fill": "#FFFFFF",
+                      "content": "Newton prevê o tempo de sobrevivência",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "e96KJh",
+                      "name": "uc2Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A Lei do Resfriamento de Newton calcula em quantas horas a geladeira atingiria os 8°C críticos. O sistema gera o alerta: vacina estraga em 2,4 horas e envia o comando criptografado ao Arduino.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K5H1X",
+                  "name": "uc3",
+                  "width": "fill_container",
+                  "fill": "#ffffff0f",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 36,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "I2wIgG",
+                      "name": "uc3Step",
+                      "height": 28,
+                      "fill": "#fb85004d",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wktdX",
+                          "name": "uc3StepText",
+                          "fill": "#FB8500",
+                          "content": "AÇÃO",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 1.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "t7WFT",
+                      "name": "uc3Icon",
+                      "fill": "#FFFFFF",
+                      "content": "📊",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 40,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I03EC",
+                      "name": "uc3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Arduino age antes do calor chegar",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yzm2e",
+                      "name": "uc3Body",
+                      "fill": "#ffffff99",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "O Arduino recebe o comando, reforça o resfriamento a CO₂, trava a porta, gira a ventoinha e dispara o alarme. A equipe de saúde vê o alerta no painel e decide se aciona jipes ou drones de resgate.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "DM Sans",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dRGdq",
+          "name": "Section CTA",
+          "width": "fill_container",
+          "fill": "#FFF8F0",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            96,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Q7nDZ",
+              "name": "ctaContent",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qYUev",
+                  "name": "ctaLabel",
+                  "fill": "#FB8500",
+                  "content": "ACESSO ANTECIPADO · CADASTRO",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "ar1Lj",
+                  "name": "ctaTitle",
+                  "fill": "#023047",
+                  "textGrowth": "fixed-width",
+                  "width": 900,
+                  "content": "Faça parte da missão",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "Be2i9",
+                  "name": "ctaSub",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Cadastre-se para acompanhar o desenvolvimento do Heat Space e receber acesso antecipado ao painel de monitoramento da cadeia de frio.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "b8Vk97",
+                  "name": "ctaForm",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sh8Y8",
+                      "name": "ctaInput",
+                      "width": 360,
+                      "height": 56,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "k7QfT",
+                          "name": "ctaInputText",
+                          "fill": "#9CA3AF",
+                          "content": "seu@email.com",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TsztI",
+                      "name": "ctaBtn",
+                      "width": 160,
+                      "height": 56,
+                      "fill": "#FB8500",
+                      "cornerRadius": 9999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Hy5mx",
+                          "name": "ctaBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Cadastrar",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tnsEW",
+                  "name": "ctaMicro",
+                  "fill": "#9CA3AF",
+                  "content": "Sem spam. Apenas atualizações sobre o projeto.",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wpvAw",
+          "name": "Footer",
+          "width": "fill_container",
+          "height": 120,
+          "fill": "#023047",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RL7ti",
+              "name": "footerContent",
+              "width": 1100,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "L9VFTv",
+                  "name": "footerLeft",
+                  "gap": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Euxnc",
+                      "name": "footerLogoIcon",
+                      "fill": "#fb850099",
+                      "content": "◆",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "schVS",
+                      "name": "footerLogoText",
+                      "fill": "#ffffff80",
+                      "content": "Heat Space",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tUHm5",
+                      "name": "footerCopy",
+                      "fill": "#ffffff4d",
+                      "content": "© 2025 Todos os direitos reservados.",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XC5UM",
+                  "name": "footerRight",
+                  "gap": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fyJIW",
+                      "name": "footerLink1",
+                      "fill": "#ffffff66",
+                      "content": "Privacidade",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "raTf2",
+                      "name": "footerLink2",
+                      "fill": "#ffffff66",
+                      "content": "Termos",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i9R6kq",
+                      "name": "footerLink3",
+                      "fill": "#ffffff66",
+                      "content": "Contato",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
