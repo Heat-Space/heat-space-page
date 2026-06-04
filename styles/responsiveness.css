@@ -9,7 +9,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 680px) {
     :root {
         --text-lg: 1rem;
         --text-xl: 1.125rem;
@@ -72,6 +72,20 @@
 
     /* --- Seção 4 --- */
     .audience-grid {
+        flex-direction: column;
+    }
+
+    /* --- Seção 5 --- */
+    .benefits-stats {
+        flex-direction: column;
+    }
+
+    .benefits-stat-divider {
+        border-right: none;
+        border-bottom: 1px solid var(--color-gray-300);
+    }
+
+    .benefits-list{
         flex-direction: column;
     }
 
