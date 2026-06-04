@@ -12,6 +12,7 @@
 .footer-content {
   width: var(--container-width);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -46,6 +47,7 @@
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: var(--space-7);
 }

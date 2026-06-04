@@ -9,20 +9,7 @@
     }
 }
 
-@media (max-width: 680px) {
-    :root {
-        --text-lg: 1rem;
-        --text-xl: 1.125rem;
-        --text-4xl: 2rem;
-        --text-6xl: 2.25rem;
-
-        --container-width: 100%;
-    }
-
-    /* --- Buttons --- */
-    .btn {
-        padding: var(--space-2) var(--space-6);
-    }
+@media (max-width: 1000px) {
 
     /* --- Navbar --- */
     .navbar-links {
@@ -30,38 +17,43 @@
     }
 
     /* --- Seção 1 --- */
+    .hero-description {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    :root {
+        --text-lg: 1rem;
+        --text-xl: 1.125rem;
+        --text-4xl: 2rem;
+        --text-6xl: 2.25rem;
+    }
+
+    /* --- Buttons --- */
+    .btn {
+        padding: var(--space-2) var(--space-6);
+    }
+
+    /* --- Seção 1 --- */
     .hero {
         margin: .5rem;
+        height: 50vh;
     }
 
     .hero-title-line {
-        flex-direction: column;
         gap: var(--space-2);
-    }
-
-    .hero-description {
-        display: none;
     }
 
     .hero-actions {
         width: 100%;
-        flex-direction: column;
     }
 
     .hero-actions a {
         width: 100%;
     }
 
-    /* --- Seção 2 --- */
-    .tech-grid {
-        grid-template-columns: 1fr;
-    }
-
     /* --- Seção 3 --- */
-    .goals-grid {
-        flex-direction: column;
-    }
-
     .goals-item {
         border-right: none;
         border-bottom: 1px solid var(--color-white-08);
@@ -71,36 +63,18 @@
         border-bottom: none;
     }
 
-    /* --- Seção 4 --- */
-    .audience-grid {
-        flex-direction: column;
-    }
-
     /* --- Seção 5 --- */
-    .benefits-stats {
-        flex-direction: column;
-    }
-
     .benefits-stat-divider {
         border-right: none;
         border-bottom: 1px solid var(--color-gray-300);
     }
 
-    .benefits-list{
-        flex-direction: column;
-    }
-
-    /* --- Seção 6 --- */
-    .usecases-grid {
-        flex-direction: column;
-    }
-
     /* --- CTA --- */
-    .cta-form {
-        flex-direction: column;
+    .cta-form input {
+        width: 100%;
     }
 
-    .cta-form  button {
+    .cta-form button {
         width: 100%;
     }
 
@@ -111,14 +85,13 @@
         gap: var(--space-4);
     }
 
-    .footer-left{
+    .footer-left {
         width: 100%;
         justify-content: center;
     }
 
     .footer-links {
         align-items: flex-start;
-        flex-direction: column;
         gap: var(--space-2);
         padding-inline: var(--space-7);
     }

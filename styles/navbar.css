@@ -13,10 +13,11 @@
 }
 
 .navbar-content {
-  width: var(--container-width);
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-inline: var(--space-4);
 }
 
 .navbar-logo {

@@ -12,8 +12,8 @@
 }
 
 .usecases-grid {
-  width: var(--container-width);
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-5);
 }
 
@@ -25,6 +25,7 @@
   padding: var(--space-8) 2.25rem;
   display: flex;
   flex-direction: column;
+  min-width: 15.625rem;
   gap: var(--space-4);
 }
 
