@@ -12,15 +12,15 @@
   background: url("../../assets/images/hero-background.png") no-repeat center center / cover;
 }
 
-.hero::after{
-content: "";
-position: absolute;
-inset: 0;
-background: rgba(0, 0, 0, 0.726);
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.726);
   border-radius: var(--radius-md);
 }
 
-.hero-label{
+.hero-label {
   z-index: 1;
 }
 

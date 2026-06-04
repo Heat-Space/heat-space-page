@@ -1,0 +1,53 @@
+@media (max-width: 1500px) {
+    :root {
+        --text-lg: 1.125rem;
+        --text-xl: 1.125rem;
+        --text-4xl: 2.5rem;
+        --text-6xl: 3.5rem;
+
+        --container-width: 1200px;
+    }
+}
+
+@media (max-width: 375px) {
+    :root {
+        --text-lg: 1rem;
+        --text-xl: 1.125rem;
+        --text-4xl: 2rem;
+        --text-6xl: 2.25rem;
+
+        --container-width: 100%;
+    }
+
+    /* --- Buttons --- */
+    .btn {
+        padding: var(--space-2) var(--space-6);
+    }
+
+    /* --- Navbar --- */
+    .navbar-links {
+        display: none;
+    }
+
+    /* --- Seção 1 --- */
+    .hero{
+        margin: .5rem;
+    }
+    .hero-title-line {
+        flex-direction: column;
+        gap: var(--space-2);
+    }
+
+    .hero-description{
+        display: none;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+    }
+
+    .hero-actions a {
+        width: 100%;
+    }
+
+}
