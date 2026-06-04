@@ -1,2 +1,2 @@
-Link repositório: https://github.com/Heat-Space/heat-space.git
-Link github pages: https://heat-space.github.io/heat-space/
+Link repositório: https://github.com/Heat-Space/heat-space-page.git
+Link github pages: https://heat-space.github.io/heat-space-page/
