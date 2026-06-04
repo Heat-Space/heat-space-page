@@ -70,6 +70,10 @@
     }
 
     /* --- CTA --- */
+    .cta-content {
+        height: 50vh;
+    }
+    
     .cta-form input {
         width: 100%;
     }
