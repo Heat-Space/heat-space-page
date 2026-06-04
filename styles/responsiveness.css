@@ -69,4 +69,10 @@
     .goals-item-last {
         border-bottom: none;
     }
+
+    /* --- Seção 4 --- */
+    .audience-grid {
+        flex-direction: column;
+    }
+
 }
