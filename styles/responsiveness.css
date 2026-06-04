@@ -44,6 +44,7 @@
     }
 
     .hero-actions {
+        width: 100%;
         flex-direction: column;
     }
 
@@ -92,5 +93,14 @@
     /* --- Seção 6 --- */
     .usecases-grid {
         flex-direction: column;
+    }
+
+    /* --- CTA --- */
+    .cta-form {
+        flex-direction: column;
+    }
+
+    .cta-form  button {
+        width: 100%;
     }
 }
