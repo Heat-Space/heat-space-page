@@ -103,4 +103,23 @@
     .cta-form  button {
         width: 100%;
     }
+
+    /* --- Footer --- */
+    .footer-content {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+
+    .footer-left{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-links {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: var(--space-2);
+        padding-inline: var(--space-7);
+    }
 }
