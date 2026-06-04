@@ -89,4 +89,8 @@
         flex-direction: column;
     }
 
+    /* --- Seção 6 --- */
+    .usecases-grid {
+        flex-direction: column;
+    }
 }
