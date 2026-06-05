@@ -46,7 +46,7 @@
     /* --- Seção 1 --- */
     .hero {
         margin: .5rem;
-        height: 50vh;
+        height: 60vh;
     }
 
     .hero-title-line {
@@ -78,10 +78,6 @@
     }
 
     /* --- CTA --- */
-    .cta-content {
-        height: 50vh;
-    }
-
     .cta-form input {
         width: 100%;
     }
