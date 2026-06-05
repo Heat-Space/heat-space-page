@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz - Heat Space</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="../styles/index.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-content container">
+      <a href="../index.html" class="navbar-link go-back">
+        <img src="../assets/icons/move-left.svg" alt="Voltar" class="navbar-icon" />
+        Voltar
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Quiz Hero -->
+    <section class="quiz-hero">
+      <div class="quiz-hero-header">
+        <p class="section-label">CONHECIMENTO · QUIZ</p>
+        <h1 class="quiz-hero-title">Teste seu conhecimento</h1>
+        <p class="quiz-hero-subtitle">
+          10 perguntas sobre o Heat Space, cadeia de frio e ondas de calor extremo.
+        </p>
+      </div>
+
+      <div class="quiz-progress">
+        <div class="quiz-progress-row">
+          <span class="quiz-progress-label" id="progresso-label">Pergunta 1 de 10</span>
+          <span class="quiz-progress-percent" id="progresso-percent">10%</span>
+        </div>
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="progresso-fill" style="width: 10%;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tela do Quiz -->
+    <section class="quiz-main" id="tela-quiz">
+      <div class="quiz-card">
+        <h2 class="quiz-question" id="enunciado"></h2>
+
+        <ul class="quiz-options" id="opcoes"></ul>
+
+        <button class="btn btn-primary btn-proxima" id="btn-proxima" disabled>
+          Próxima Pergunta
+        </button>
+      </div>
+    </section>
+
+    <!-- Tela de Resultado -->
+    <section class="quiz-resultado" id="tela-resultado" hidden>
+      <div class="resultado-card">
+        <p class="section-label">RESULTADO FINAL · QUIZ</p>
+
+        <h2 class="resultado-title" id="resultado-titulo">Você acertou <span id="resultado-acertos-1">0</span> de 10 perguntas!</h2>
+
+        <div class="resultado-scores">
+          <div class="resultado-score-item">
+            <span class="resultado-score-num resultado-score-num-primary" id="resultado-acertos-2">0</span>
+            <span class="resultado-score-label">ACERTOS</span>
+          </div>
+          <div class="resultado-score-item">
+            <span class="resultado-score-num resultado-score-num-dark" id="resultado-erros">0</span>
+            <span class="resultado-score-label">ERROS</span>
+          </div>
+          <div class="resultado-score-item">
+            <span class="resultado-score-num resultado-score-num-primary" id="resultado-aproveitamento">0%</span>
+            <span class="resultado-score-label">APROVEITAMENTO</span>
+          </div>
+        </div>
+
+        <p class="resultado-msg" id="resultado-msg"></p>
+
+        <div class="resultado-acoes">
+          <button class="btn btn-primary" id="btn-reiniciar">Tentar Novamente</button>
+          <a href="../index.html" class="btn btn-outline">Voltar ao Início</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <span class="footer-logo-icon">◆</span>
+        <span class="footer-logo-text">Heat Space</span>
+        <span class="footer-copy">© 2026 Todos os direitos reservados.</span>
+      </div>
+      <div class="footer-links">
+        <div class="footer-link">
+          <span>RM569871</span>
+          <span>Pollyana Valverde dos Santos</span>
+        </div>
+        <div class="footer-link">
+          <span>RM569643</span>
+          <span>Luana Lopes Sventkauskas</span>
+        </div>
+        <div class="footer-link">
+          <span>RM572144</span>
+          <span>João Fernando Gonçalves Senziani</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../scripts/quiz.js"></script>
+
+</body>
+
+</html>
