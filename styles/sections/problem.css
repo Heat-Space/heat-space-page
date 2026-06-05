@@ -34,7 +34,7 @@
   font-size: var(--text-6xl);
   font-weight: var(--weight-extrabold);
   letter-spacing: var(--tracking-tighter);
-  color: var(--color-white);
+  color: white;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: var(--color-white);
+  color: white;
   gap: var(--space-4);
 }
 
@@ -57,7 +57,8 @@
   font-size: var(--text-xl);
   line-height: var(--leading-normal);
   text-align: center;
-  color: var(--color-gray-200);
+  color: white;
+  opacity: 0.8;
 }
 
 .hero-actions {

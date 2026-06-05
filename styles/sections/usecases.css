@@ -35,7 +35,7 @@
 
 .usecase-card:hover .badge{
   background-color: var(--color-primary);
-  color: var(--color-white);
+  color: white;
 }
 
 .usecase-badge-ghost {

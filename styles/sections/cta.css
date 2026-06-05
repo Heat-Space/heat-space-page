@@ -27,18 +27,19 @@
   border-radius: var(--radius-md);
 }
 
-.cta-label{
+.cta-label {
   z-index: 1;
 }
 
 .cta-title {
   z-index: 1;
-  color: var(--color-white);
+  color: white;
 }
 
 .cta-subtitle {
   z-index: 1;
-  color: var(--color-gray-200);
+  color: white;
+  opacity: 0.8;
 }
 
 .cta-form {

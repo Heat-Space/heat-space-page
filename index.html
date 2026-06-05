@@ -36,6 +36,14 @@
         <a href="/pages/quiz.html" class="navbar-cta btn btn-outline" id="quiz-link">Quiz</a>
       </div>
     </div>
+    <div class="navbar-toggle" id="navbar-toggle">
+      <span class="navbar-toggle-label" id="opcao-atutal"><img src="./assets/icons/chevron-down.svg" alt="Ícone de seta para baixo">Claro</span>
+      <div class="navbar-toggle-opcoes">
+        <span class="navbar-toggle-opcao" id="opcao-claro">Claro</span>
+        <span class="navbar-toggle-opcao" id="opcao-escuro">Escuro</span>
+        <span class="navbar-toggle-opcao" id="opcao-contraste">Contraste</span>
+      </div>
+    </div>
   </header>
 
   <main>
@@ -380,8 +388,8 @@
           antecipado ao painel de monitoramento da cadeia de frio.
         </p>
         <form class="cta-form" action="#" method="post" id="cta-form">
-          <input id="cta-input" class="input cta-input" type="email" name="email" placeholder="seu@email.com" autocomplete="email"
-            required />
+          <input id="cta-input" class="input cta-input" type="email" name="email" placeholder="seu@email.com"
+            autocomplete="email" required />
           <button class="btn btn-primary" type="submit">Cadastrar</button>
         </form>
         <p class="cta-micro">Sem spam. Apenas atualizações sobre o projeto.</p>
@@ -418,6 +426,7 @@
 
   <script src="scripts/forms.js"></script>
   <script src="scripts/slideshow.js"></script>
+  <script type="module" src="scripts/theme-toggle.js"></script>
 </body>
 
 </html>
