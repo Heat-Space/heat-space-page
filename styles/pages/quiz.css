@@ -218,6 +218,7 @@
 /* Scores */
 .resultado-scores {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-5);
   width: 100%;
 }

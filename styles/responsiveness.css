@@ -16,6 +16,14 @@
         display: none;
     }
 
+    .navbar-toggle {
+        right: 1rem;
+    }
+
+    .navbar-toggle-opcoes {
+        right: 1rem;
+    }
+
     /* --- Seção 1 --- */
     .hero-description {
         display: none;
@@ -73,7 +81,7 @@
     .cta-content {
         height: 50vh;
     }
-    
+
     .cta-form input {
         width: 100%;
     }
@@ -99,4 +107,19 @@
         gap: var(--space-2);
         padding-inline: var(--space-7);
     }
+
+    /* --- Quiz --- */
+    .resultado-acoes{
+        width: 100%;
+    }
+
+    .resultado-acoes button, .resultado-acoes a{
+        width: 100%;
+    }
+}
+
+@media (max-width: 470px) {
+ .navbar-cta.btn-primary{
+    display: none;
+ }
 }
