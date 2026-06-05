@@ -1,5 +1,5 @@
 {
-  "version": "2.11",
+  "version": "2.13",
   "children": [
     {
       "type": "frame",
@@ -2122,6 +2122,890 @@
                       "fontFamily": "DM Sans",
                       "fontSize": 12,
                       "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HdW5Y",
+      "x": 3059,
+      "y": 0,
+      "name": "Result Page",
+      "width": 1440,
+      "height": 1200,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "SIWSW",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "sVMr3",
+              "name": "NavContent",
+              "width": "fill_container",
+              "padding": [
+                0,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UZnKn",
+                  "name": "VoltarLink",
+                  "fill": "#6B7280",
+                  "content": "Voltar",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "KQmi9",
+          "name": "QuizHero",
+          "width": "fill_container",
+          "fill": "#023047",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "iqqvF",
+              "name": "HeroInner",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RsPaz",
+                  "name": "QuizLabel",
+                  "fill": "#FB8500",
+                  "content": "CONHECIMENTO · QUIZ",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "ZPBTy",
+                  "name": "QuizTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Teste seu conhecimento",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "B7c8q",
+                  "name": "QuizSubtitle",
+                  "fill": "#A8C8D8",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "10 perguntas sobre o Heat Space, cadeia de frio e ondas de calor extremo.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "r4J1Zu",
+              "name": "ProgressArea",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "auZt7",
+                  "name": "ProgressRow",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q2uCWZ",
+                      "name": "ProgressLabel",
+                      "fill": "#A8C8D8",
+                      "content": "Pergunta 1 de 10",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E70X1",
+                      "name": "ProgressPercent",
+                      "fill": "#FB8500",
+                      "content": "10%",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jJME5",
+                  "name": "ProgressBarBg",
+                  "width": "fill_container",
+                  "height": 6,
+                  "fill": "#ffffff1a",
+                  "cornerRadius": 9999,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rDQZg",
+                      "name": "ProgressBarFill",
+                      "width": 110,
+                      "height": 6,
+                      "fill": "#FB8500",
+                      "cornerRadius": 9999
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A7zeYq",
+          "name": "ResultSection",
+          "width": "fill_container",
+          "fill": "#F8FAFC",
+          "layout": "vertical",
+          "padding": [
+            80,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "M4xG1B",
+              "name": "ResultCard",
+              "width": 760,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 48,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XOZQd",
+                  "name": "ResultLabel",
+                  "fill": "#FB8500",
+                  "content": "RESULTADO FINAL · QUIZ",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "aOpDU",
+                  "name": "ResultTitle",
+                  "fill": "#023047",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Você acertou 0 de 10 perguntas!",
+                  "textAlign": "center",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 32,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "B67vJR",
+                  "name": "ScoreRow",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fnwX9",
+                      "name": "Score_ACERTOS",
+                      "width": "fill_container",
+                      "fill": "#F8FAFC",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        20,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FZZJd",
+                          "name": "ScoreNum_ACERTOS",
+                          "fill": "#FB8500",
+                          "content": "8",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 40,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KWiN3",
+                          "name": "ScoreLabel_ACERTOS",
+                          "fill": "#6B7280",
+                          "content": "ACERTOS",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.8
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "crLOO",
+                      "name": "Score_ERROS",
+                      "width": "fill_container",
+                      "fill": "#F8FAFC",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        20,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VBlY5",
+                          "name": "ScoreNum_ERROS",
+                          "fill": "#023047",
+                          "content": "2",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 40,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z0LNkd",
+                          "name": "ScoreLabel_ERROS",
+                          "fill": "#6B7280",
+                          "content": "ERROS",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.8
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RyuKh",
+                      "name": "Score_APROVEITAMENTO",
+                      "width": "fill_container",
+                      "fill": "#F8FAFC",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        20,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hmrbK",
+                          "name": "ScoreNum_APROVEITAMENTO",
+                          "fill": "#FB8500",
+                          "content": "80%",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 40,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OQsxX",
+                          "name": "ScoreLabel_APROVEITAMENTO",
+                          "fill": "#6B7280",
+                          "content": "APROVEITAMENTO",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "hPnPr",
+                  "name": "ResultMsg",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ótimo desempenho! Você demonstra bom conhecimento sobre o Heat Space e a importância da cadeia de frio para vacinas.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16
+                },
+                {
+                  "type": "frame",
+                  "id": "JOVvU",
+                  "name": "ResultBtns",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DNdFy",
+                      "name": "RetryBtn",
+                      "height": 52,
+                      "fill": "#FB8500",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        0,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NHByr",
+                          "name": "RetryBtnText",
+                          "fill": "#FFFFFF",
+                          "content": "Tentar Novamente",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FA7vG",
+                      "name": "HomeBtn",
+                      "height": 52,
+                      "fill": "#00000000",
+                      "cornerRadius": 9999,
+                      "stroke": "#FB850080",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        32
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n2NE6K",
+                          "name": "HomeBtnText",
+                          "fill": "#FB8500",
+                          "content": "Voltar ao Início",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YLNAN",
+      "x": 1520,
+      "y": 0,
+      "name": "Quiz Page",
+      "width": 1440,
+      "height": 1200,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "AGeN8",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ewSTp",
+              "name": "NavContent",
+              "width": "fill_container",
+              "padding": [
+                0,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WRlxD",
+                  "name": "VoltarLink",
+                  "fill": "#6B7280",
+                  "content": "Voltar",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DGUrg",
+          "name": "QuizHero",
+          "width": "fill_container",
+          "fill": "#023047",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            80,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Qreiu",
+              "name": "HeroInner",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kQxqo",
+                  "name": "QuizLabel",
+                  "fill": "#FB8500",
+                  "content": "CONHECIMENTO · QUIZ",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.2
+                },
+                {
+                  "type": "text",
+                  "id": "yj8jT",
+                  "name": "QuizTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Teste seu conhecimento",
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 56,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.4
+                },
+                {
+                  "type": "text",
+                  "id": "FT6pM",
+                  "name": "QuizSubtitle",
+                  "fill": "#A8C8D8",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "10 perguntas sobre o Heat Space, cadeia de frio e ondas de calor extremo.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "DM Sans",
+                  "fontSize": 18
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "S9pBS",
+              "name": "ProgressArea",
+              "width": 1100,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VMcaF",
+                  "name": "ProgressRow",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PeEjJ",
+                      "name": "ProgressLabel",
+                      "fill": "#A8C8D8",
+                      "content": "Pergunta 1 de 10",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GUAyU",
+                      "name": "ProgressPercent",
+                      "fill": "#FB8500",
+                      "content": "10%",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KCd4i",
+                  "name": "ProgressBarBg",
+                  "width": "fill_container",
+                  "height": 6,
+                  "fill": "#ffffff1a",
+                  "cornerRadius": 9999,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xaYEB",
+                      "name": "ProgressBarFill",
+                      "width": 110,
+                      "height": 6,
+                      "fill": "#FB8500",
+                      "cornerRadius": 9999
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U2drL",
+          "name": "QuizMain",
+          "width": "fill_container",
+          "fill": "#F8FAFC",
+          "layout": "vertical",
+          "padding": [
+            80,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mGIae",
+              "name": "QuizCard",
+              "width": 760,
+              "fill": "#FFFFFF",
+              "cornerRadius": 16,
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G2zFU",
+                  "name": "QuestionText",
+                  "fill": "#023047",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Qual é a temperatura máxima segura para o armazenamento de vacinas?",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Space Grotesk",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "PcFs8",
+                  "name": "OptionsGrid",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bBGll",
+                      "name": "OptionA",
+                      "width": "fill_container",
+                      "fill": "#F8FAFC",
+                      "cornerRadius": 12,
+                      "stroke": "#E5E7EB",
+                      "strokeWidth": 1,
+                      "gap": 16,
+                      "padding": [
+                        18,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TMZOp",
+                          "name": "BadgeA",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 9999,
+                          "stroke": "#D1D5DB",
+                          "strokeWidth": 1,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "G4VUnW",
+                              "name": "BadgeTextA",
+                              "fill": "#6B7280",
+                              "content": "A",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "hBYdW",
+                          "name": "OptionTextA",
+                          "fill": "#6B7280",
+                          "content": "2°C",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zqZk4",
+                      "name": "OptionB",
+                      "width": "fill_container",
+                      "fill": "#FB85001A",
+                      "cornerRadius": 12,
+                      "stroke": "#FB8500",
+                      "strokeWidth": 2,
+                      "gap": 16,
+                      "padding": [
+                        18,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wURYg",
+                          "name": "BadgeB",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "#FB8500",
+                          "cornerRadius": 9999,
+                          "stroke": "#FB8500",
+                          "strokeWidth": 1,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kFMbb",
+                              "name": "BadgeTextB",
+                              "fill": "#FFFFFF",
+                              "content": "B",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "M1Zoq",
+                          "name": "OptionTextB",
+                          "fill": "#023047",
+                          "content": "8°C",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J1VLB4",
+                      "name": "OptionC",
+                      "width": "fill_container",
+                      "fill": "#F8FAFC",
+                      "cornerRadius": 12,
+                      "stroke": "#E5E7EB",
+                      "strokeWidth": 1,
+                      "gap": 16,
+                      "padding": [
+                        18,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IcRtK",
+                          "name": "BadgeC",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 9999,
+                          "stroke": "#D1D5DB",
+                          "strokeWidth": 1,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ipThf",
+                              "name": "BadgeTextC",
+                              "fill": "#6B7280",
+                              "content": "C",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sTORK",
+                          "name": "OptionTextC",
+                          "fill": "#6B7280",
+                          "content": "15°C",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v1FgU",
+                      "name": "OptionD",
+                      "width": "fill_container",
+                      "fill": "#F8FAFC",
+                      "cornerRadius": 12,
+                      "stroke": "#E5E7EB",
+                      "strokeWidth": 1,
+                      "gap": 16,
+                      "padding": [
+                        18,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h8p2R",
+                          "name": "BadgeD",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 9999,
+                          "stroke": "#D1D5DB",
+                          "strokeWidth": 1,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wtO1Y",
+                              "name": "BadgeTextD",
+                              "fill": "#6B7280",
+                              "content": "D",
+                              "fontFamily": "DM Sans",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "qFQhr",
+                          "name": "OptionTextD",
+                          "fill": "#6B7280",
+                          "content": "25°C",
+                          "fontFamily": "DM Sans",
+                          "fontSize": 16
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fJs37",
+                  "name": "NextBtn",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#FB8500",
+                  "cornerRadius": 9999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Rgw7b",
+                      "name": "NextBtnText",
+                      "fill": "#FFFFFF",
+                      "content": "Próxima Pergunta",
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": "600"
                     }
                   ]
                 }
